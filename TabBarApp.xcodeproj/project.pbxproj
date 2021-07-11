@@ -13,6 +13,11 @@
 		CB0FE38A269AF6BE00EC8C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0FE388269AF6BE00EC8C08 /* Main.storyboard */; };
 		CB0FE38C269AF6BF00EC8C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB0FE38B269AF6BF00EC8C08 /* Assets.xcassets */; };
 		CB0FE38F269AF6BF00EC8C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB0FE38D269AF6BF00EC8C08 /* LaunchScreen.storyboard */; };
+		CB0FE39A269AFFDC00EC8C08 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FE399269AFFDC00EC8C08 /* SecondViewController.swift */; };
+		CB0FE39D269B00E800EC8C08 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FE39C269B00E800EC8C08 /* FirstViewController.swift */; };
+		CB0FE3A0269B010200EC8C08 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FE39F269B010200EC8C08 /* ThirdViewController.swift */; };
+		CB0FE3A3269B012400EC8C08 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FE3A2269B012400EC8C08 /* FourthViewController.swift */; };
+		CB0FE3A6269B052900EC8C08 /* FithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0FE3A5269B052900EC8C08 /* FithViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		CB0FE38B269AF6BF00EC8C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB0FE38E269AF6BF00EC8C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB0FE390269AF6BF00EC8C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB0FE399269AFFDC00EC8C08 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CB0FE39C269B00E800EC8C08 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		CB0FE39F269B010200EC8C08 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		CB0FE3A2269B012400EC8C08 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CB0FE3A5269B052900EC8C08 /* FithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FithViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				CB0FE38B269AF6BF00EC8C08 /* Assets.xcassets */,
 				CB0FE38D269AF6BF00EC8C08 /* LaunchScreen.storyboard */,
 				CB0FE390269AF6BF00EC8C08 /* Info.plist */,
+				CB0FE39C269B00E800EC8C08 /* FirstViewController.swift */,
+				CB0FE399269AFFDC00EC8C08 /* SecondViewController.swift */,
+				CB0FE39F269B010200EC8C08 /* ThirdViewController.swift */,
+				CB0FE3A2269B012400EC8C08 /* FourthViewController.swift */,
+				CB0FE3A5269B052900EC8C08 /* FithViewController.swift */,
 			);
 			path = TabBarApp;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB0FE39D269B00E800EC8C08 /* FirstViewController.swift in Sources */,
+				CB0FE39A269AFFDC00EC8C08 /* SecondViewController.swift in Sources */,
 				CB0FE387269AF6BE00EC8C08 /* ViewController.swift in Sources */,
+				CB0FE3A3269B012400EC8C08 /* FourthViewController.swift in Sources */,
 				CB0FE383269AF6BE00EC8C08 /* AppDelegate.swift in Sources */,
+				CB0FE3A6269B052900EC8C08 /* FithViewController.swift in Sources */,
+				CB0FE3A0269B010200EC8C08 /* ThirdViewController.swift in Sources */,
 				CB0FE385269AF6BE00EC8C08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +291,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2GXF9Q37;
 				INFOPLIST_FILE = TabBarApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4P2GXF9Q37;
 				INFOPLIST_FILE = TabBarApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
